@@ -9,7 +9,6 @@
 struct winsize w;
 
 int OperatingSystemType;
-char UbuntuLogoFile[10] = "Ubuntu.txt";
 
 void GetTime() {
 	time_t rawtime;
