@@ -24,10 +24,13 @@ It does run on MacOS(*being unix based*), But I have not programmed a logo for i
 
 ## Screen Shots
 <img src="https://i.imgur.com/pwM1lFf.gif" width="50%">
+
 ###### Debian
 
 <img src="https://i.imgur.com/rw8sky1.gif" width="50%">
+
 ###### Arch
 
 <img src="https://i.imgur.com/nfmlOgM.gif" width="50%">
+
 ###### Ubuntu
