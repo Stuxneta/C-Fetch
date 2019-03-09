@@ -21,3 +21,13 @@ Its not finshed yet, and I am working on getting it to display more of your pc s
 More are soon to come(*Gentoo*).
 
 It does run on MacOS(*being unix based*), But I have not programmed a logo for it.
+
+## Screen Shots
+<img src="https://i.imgur.com/pwM1lFf.gif" width"50%">
+###### Debian
+
+<img src="https://i.imgur.com/rw8sky1.gif" width"50%">
+###### Arch
+
+<img src="https://i.imgur.com/nfmlOgM.gif" width"50%">
+###### Ubuntu
