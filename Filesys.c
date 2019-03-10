@@ -12,7 +12,6 @@ void FileLoader() {
         int filecontents;
 
         Colors();
-
 	if (!file) {
                 printf("Error Loading %d\n", wfile);
         }
