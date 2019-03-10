@@ -3,7 +3,7 @@
 <img src="https://i.imgur.com/xYSRL9R.gif" width="50%">
 
 *Please compile with gcc:* 
-`gcc -o cfetch main.c art.c`
+`gcc -o cfetch main.c Filesys.c`
 
 I got bored one day and thought that it would be a cool idea if neofetch was written in C. 
 
