@@ -4,11 +4,9 @@
 #include <stdbool.h>
 #include <sys/ioctl.h>
 #include <sys/utsname.h>
-#include "art.h"
+#include "Filesys.h"
 
 struct winsize w;
-
-int OperatingSystemType;
 
 void GetTime() {
 	time_t rawtime;
@@ -27,11 +25,12 @@ void GetTime() {
 
 void Spects() {
 	printf("\e[1;1H\e[2J");
-	if (OperatingSystemType == 1) UbuntuLogo();
-	if (OperatingSystemType == 2) DebianLogo();
-	if (OperatingSystemType == 3) ArchLogo();
-	if (OperatingSystemType == 4) ManjaroLogo();
-	if (OperatingSystemType == 99) GameCubeLogo();
+	if (OperatingSystemType == 1) file = fopen("Graphics/Ubuntu.txt", "r");
+	if (OperatingSystemType == 2) file = fopen("Graphics/Debian.txt", "r");
+	if (OperatingSystemType == 3) file = fopen("Graphics/Arch.txt", "r");
+	if (OperatingSystemType == 4) file = fopen("Graphics/Manjaro.txt", "r");
+	if (OperatingSystemType == 99) file = fopen("Graphics/GameCube.txt", "r");
+	FileLoader();
 
 	struct utsname uname_pointer;
 
